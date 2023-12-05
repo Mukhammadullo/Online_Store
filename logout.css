@@ -1,0 +1,322 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+
+}
+
+.head {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(39, 18, 59);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+    color: #fff;
+}
+
+.head_card {
+    width: 50px;
+    height: 40px;
+}
+
+.card {
+    width: 20px;
+    height: 20px;
+    border: 2px solid red;
+    position: absolute;
+    left: 1480px;
+    top: 5px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+/* txt_clothing */
+.title_clothing {
+    font-size: 26px;
+    padding: 8px;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txt_clothing {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    padding: 15px;
+}
+
+
+/* cards */
+.cards {
+    width: 95%;
+    height: 130vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8 {
+    width: 24%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 2px black;
+}
+
+.card1:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+.card2:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+.card3:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+.card4:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+.card5:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+.card6:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+.card7:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+.card8:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+/* img1 */
+.card1_top,
+.card2_top,
+.card3_top,
+.card4_top,
+.card5_top,
+.card6_top,
+.card7_top,
+.card8_top {
+    width: 100%;
+    height: 25vh;
+    background-size: cover;
+}
+
+.card1_top {
+    background-image: url('/img/1.jpg');
+}
+
+.card2_top {
+    background-image: url('/img/1212.jpg');
+}
+
+.card3_top {
+    background-image: url('/img/4.jpg');
+}
+
+.card4_top {
+    background-image: url('/img/7.jpg');
+}
+
+.card5_top {
+    background-image: url('/img/2.jpg');
+}
+
+.card6_top {
+    background-image: url('/img/6.jfif');
+}
+
+.card7_top {
+    background-image: url('/img/77.jpg');
+}
+
+.card8_top {
+    background-image: url('/img/88.jfif');
+}
+
+
+/* card1_bottom */
+.card1_bottom,
+.card2_bottom,
+.card3_bottom,
+.card4_bottom,
+.card5_bottom,
+.card6_bottom,
+.card7_bottom,
+.card8_bottom {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnMinus1,
+.btnMinus2,
+.btnMinus3,
+.btnMinus4,
+.btnMinus5,
+.btnMinus6,
+.btnMinus7,
+.btnMinus8 {
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+    border-radius: 4px;
+    border: none;
+    background-color: red;
+    color: #fff;
+}
+
+.btnSum1,
+.btnSum2,
+.btnSum3,
+.btnSum4,
+.btnSum5,
+.btnSum6,
+.btnSum7,
+.btnSum8 {
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+    border-radius: 4px;
+    border: none;
+    background-color: rebeccapurple;
+    color: #fff;
+}
+
+.result1,
+.result2,
+.result3,
+.result4,
+.result5,
+.result6,
+.result7,
+.result8 {
+    color: black;
+    font-size: 26px;
+}
+
+.price {
+    color: grey;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+
+.btn_logout {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+.btn_logout:hover {
+    background-color: black;
+    color: white;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: blueviolet;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialogShop {
+    width: 1250px;
+    height: 120vh;
+    border: none;
+}
+
+.total {
+    display: flex;
+}
+
+.cntTotal {
+    font-size: 36px;
+    color: red;
+}
+
+
+.clearBtn {
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.clearBtn:hover {
+    box-shadow: 0px 0px 3px black;
+}
+
+
+.cancelBtn {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: #fff;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.cancelBtn:hover {
+    box-shadow: 0px 0px 3px black;
+}
+
+.total {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.carBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* forCard */
+.forCard {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
