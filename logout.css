@@ -320,3 +320,11 @@
 }
 
 
+.premium {
+    width: 150px;
+    height: 40px;
+    color: rgb(114, 114, 6);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
